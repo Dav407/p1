@@ -1,0 +1,10 @@
+ var student = ["dav", "t-boy", "idris", "nikke", "victor", "lyiod", "omoh", "christi", "femi", "alfa"]
+console.log(student.length)
+student.push('lee')
+console.log(student)
+student.unshift("dani")
+console.log(student)
+student.shift()
+console.log(student)
+student.pop()
+console.log(student)

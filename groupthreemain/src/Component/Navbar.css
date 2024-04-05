@@ -1,0 +1,12 @@
+.navbar-wrap{
+    width: 100vw;
+    height: 70px;
+    background-color: blue;
+}
+
+ .navbar{
+    height: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 52px 0 0; 
+ } 

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body class="container/fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <h1 class="text-start text-primary fs-2 fw-light text-decoration-underline fst-italic">Welcome  to bootstrap</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic dolores repellendus deleniti accusamus quam eum iusto culpa excepturi, ex dicta autem reprehenderit enim maxime atque tempora ducimus minima. Quisquam, sint. Omnis accusantium earum molestiae temporibus corporis enim animi sint nisi aperiam voluptatem. Harum officia quos ipsam expedita fugiat reiciendis minima eius consectetur nisi iste voluptate repellendus, odit velit autem vitae a corrupti. Error culpa tempora voluptate ratione hic voluptates ad vitae, ullam cupiditate aliquam! Quae suscipit, necessitatibus nobis quasi blanditiis eum error pariatur ad neque facilis. Reprehenderit quas a fugiat, laboriosam ipsam velit id atque sint dignissimos exercitationem amet nulla!</p>
+
+        <a href="" class="text-decoration-none text-danger">GoMyCode</a>
+        <div class="p-5 m-5 w-25 pt-5 pb-5 ps-5 pe-5 rounded-pill shadow-lg shadow-sm">
+            <h3 class="text-secondary">CSS Box Model</h3>
+        </div>
+
+      </div>
+      <div class="container">
+        <div class="card p-3" style="width: 18rem;">
+            <img src="phone.png" class="card-img-top br-5" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-secondary">iPhone 14 pro</h5>
+              <p class="card-text">Experience iPhone with Dynamic Island and Always-On display.
+            </p>
+            <p>N900</p>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+              <a href="#" class="btn btn-primary mt-2 w-100">Add to Cart <i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+          </div>
+      </div>
+      <div class="container">
+        <div class="parent w-100 vh-100 bg-success d-flex align-items-end">
+            <div class="child1 bg-danger"></div>
+            <div class="child2 bg-info"></div>
+            <div class="child3 bg-dark"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  HTML
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Hypertext markup language is basic strcuture we used to build a webpage</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  CSS
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <P>Cascading Style Sheets, is a style sheet language used to describe the presentation and formatting of a document written in HTML. </P>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  JAVASCRIPT
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <P>Javascript is programming language we used to add interativity to our website</P>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="container">
+        <button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
+<button class="btn btn-outline-primary">submit</button>
+      </div>
+      <div class="container">
+        <form class="row g-3 border border-2 w-50 p-4 m-5 shadow">
+            <div class="col-md-4">
+              <label for="validationDefault01" class="form-label">First name</label>
+              <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefault02" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefaultUsername" class="form-label">Username</label>
+              <div class="input-group">
+                <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationDefault03" class="form-label">City</label>
+              <input type="text" class="form-control" id="validationDefault03" required>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault04" class="form-label">State</label>
+              <select class="form-select" id="validationDefault04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault05" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                  Agree to terms and conditions
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary   w-100" type="submit">Submit form</button>
+            </div>
+          </form>
+      </div>
+</body>
+</html>
